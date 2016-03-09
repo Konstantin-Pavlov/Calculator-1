@@ -7,7 +7,7 @@ import java.awt.*;
  * Created by gorobec on 28.02.16.
  */
 public class CalculatorFrame extends JFrame{
-    public CalculatorFrame() {
+    public CalculatorFrame() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         setLayout(new BorderLayout());
         setTitle("Calculator");
         setResizable(false);
