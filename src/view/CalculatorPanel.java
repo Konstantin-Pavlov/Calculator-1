@@ -27,6 +27,11 @@ public class CalculatorPanel extends JPanel implements ActionListener, KeyListen
     private GridBagLayout layout;
     private GridBagConstraints gbc;
 //[0] = gridx, [1] = gridy, [2] = gridwidth, [3] = gridheight
+
+    public JTextField getField() {
+        return field;
+    }
+
     private int[][] numConstaints = new int[][]{
             {0, 6, 1, 1},
             {0, 5, 1, 1},
