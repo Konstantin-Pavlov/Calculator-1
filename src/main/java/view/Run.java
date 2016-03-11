@@ -1,7 +1,5 @@
 package view;
 
-import view.CalculatorFrame;
-
 import javax.swing.*;
 
 /**
